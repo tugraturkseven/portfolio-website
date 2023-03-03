@@ -1,7 +1,7 @@
 html {
-    overflow: hidden;
-    background-color: black;
+    overflow-y: auto;
 }
+
 
 #hero {
     display: block;
@@ -35,4 +35,9 @@ html {
 #navbar {
     font-family: 'Montserrat';
     font-weight: 400;
+}
+
+#profile-photo {
+    width: 200px;
+    margin-top: 50px;
 }
