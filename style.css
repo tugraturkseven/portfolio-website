@@ -1,6 +1,6 @@
 html {
     overflow-y: auto;
-    background-color: black;
+    scroll-behavior: smooth;
 }
 
 
