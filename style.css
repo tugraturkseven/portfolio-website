@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@200&family=Raleway:wght@300&family=Roboto:wght@100&display=swap');
+
 html {
     overflow-y: auto;
+    text-align: center;
     scroll-behavior: smooth;
 }
 
@@ -29,16 +32,25 @@ html {
 }
 
 #name {
-    font-family: 'Lemon Milk';
+    font-family: 'Dancing Script', cursive;
     color: white;
 }
 
 #navbar {
-    font-family: 'Montserrat';
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #profile-photo {
     width: 200px;
     margin-top: 50px;
+}
+
+#about-me {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    #profile {
+        margin: auto;
+    }
 }
